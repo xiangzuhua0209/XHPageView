@@ -8,12 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		EBD0FC4B2668DB75001001E6 /* XHPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD0FC492668DB75001001E6 /* XHPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD0FC592668DB93001001E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC582668DB93001001E6 /* AppDelegate.swift */; };
+		EBD0FC5B2668DB93001001E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC5A2668DB93001001E6 /* SceneDelegate.swift */; };
+		EBD0FC5D2668DB93001001E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC5C2668DB93001001E6 /* ViewController.swift */; };
+		EBD0FC602668DB93001001E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD0FC5E2668DB93001001E6 /* Main.storyboard */; };
+		EBD0FC622668DB95001001E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD0FC612668DB95001001E6 /* Assets.xcassets */; };
+		EBD0FC652668DB95001001E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD0FC632668DB95001001E6 /* LaunchScreen.storyboard */; };
+		EBD0FC6D2668DBA1001001E6 /* XHPageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD0FC462668DB75001001E6 /* XHPageView.framework */; };
+		EBD0FC732668DC01001001E6 /* XHPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC702668DC01001001E6 /* XHPageTitleView.swift */; };
+		EBD0FC742668DC01001001E6 /* XHPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC712668DC01001001E6 /* XHPageContentView.swift */; };
+		EBD0FC752668DC01001001E6 /* XHPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC722668DC01001001E6 /* XHPageView.swift */; };
+		EBD0FC7E2668DD05001001E6 /* ZHHomeBroadcastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC782668DD05001001E6 /* ZHHomeBroadcastVC.swift */; };
+		EBD0FC7F2668DD05001001E6 /* ZHHomeVIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC792668DD05001001E6 /* ZHHomeVIPViewController.swift */; };
+		EBD0FC802668DD05001001E6 /* ZHCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC7A2668DD05001001E6 /* ZHCommon.swift */; };
+		EBD0FC812668DD05001001E6 /* ZHHomeShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC7B2668DD05001001E6 /* ZHHomeShowViewController.swift */; };
+		EBD0FC822668DD05001001E6 /* ZHHomeRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC7C2668DD05001001E6 /* ZHHomeRecommendVC.swift */; };
+		EBD0FC832668DD05001001E6 /* ZHHomeClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD0FC7D2668DD05001001E6 /* ZHHomeClassifyVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBD0FC462668DB75001001E6 /* XHPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD0FC492668DB75001001E6 /* XHPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHPageView.h; sourceTree = "<group>"; };
 		EBD0FC4A2668DB75001001E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD0FC562668DB93001001E6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD0FC582668DB93001001E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD0FC5A2668DB93001001E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBD0FC5C2668DB93001001E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD0FC5F2668DB93001001E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD0FC612668DB95001001E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD0FC642668DB95001001E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD0FC662668DB95001001E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD0FC702668DC01001001E6 /* XHPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHPageTitleView.swift; sourceTree = "<group>"; };
+		EBD0FC712668DC01001001E6 /* XHPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHPageContentView.swift; sourceTree = "<group>"; };
+		EBD0FC722668DC01001001E6 /* XHPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHPageView.swift; sourceTree = "<group>"; };
+		EBD0FC782668DD05001001E6 /* ZHHomeBroadcastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHHomeBroadcastVC.swift; sourceTree = "<group>"; };
+		EBD0FC792668DD05001001E6 /* ZHHomeVIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHHomeVIPViewController.swift; sourceTree = "<group>"; };
+		EBD0FC7A2668DD05001001E6 /* ZHCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCommon.swift; sourceTree = "<group>"; };
+		EBD0FC7B2668DD05001001E6 /* ZHHomeShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHHomeShowViewController.swift; sourceTree = "<group>"; };
+		EBD0FC7C2668DD05001001E6 /* ZHHomeRecommendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHHomeRecommendVC.swift; sourceTree = "<group>"; };
+		EBD0FC7D2668DD05001001E6 /* ZHHomeClassifyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHHomeClassifyVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +57,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBD0FC532668DB93001001E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD0FC6D2668DBA1001001E6 /* XHPageView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				EBD0FC482668DB75001001E6 /* XHPageView */,
+				EBD0FC572668DB93001001E6 /* Demo */,
 				EBD0FC472668DB75001001E6 /* Products */,
+				EBD0FC6C2668DBA1001001E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				EBD0FC462668DB75001001E6 /* XHPageView.framework */,
+				EBD0FC562668DB93001001E6 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +90,40 @@
 		EBD0FC482668DB75001001E6 /* XHPageView */ = {
 			isa = PBXGroup;
 			children = (
+				EBD0FC712668DC01001001E6 /* XHPageContentView.swift */,
+				EBD0FC702668DC01001001E6 /* XHPageTitleView.swift */,
+				EBD0FC722668DC01001001E6 /* XHPageView.swift */,
 				EBD0FC492668DB75001001E6 /* XHPageView.h */,
 				EBD0FC4A2668DB75001001E6 /* Info.plist */,
 			);
 			path = XHPageView;
+			sourceTree = "<group>";
+		};
+		EBD0FC572668DB93001001E6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EBD0FC7A2668DD05001001E6 /* ZHCommon.swift */,
+				EBD0FC782668DD05001001E6 /* ZHHomeBroadcastVC.swift */,
+				EBD0FC7D2668DD05001001E6 /* ZHHomeClassifyVC.swift */,
+				EBD0FC7C2668DD05001001E6 /* ZHHomeRecommendVC.swift */,
+				EBD0FC7B2668DD05001001E6 /* ZHHomeShowViewController.swift */,
+				EBD0FC792668DD05001001E6 /* ZHHomeVIPViewController.swift */,
+				EBD0FC582668DB93001001E6 /* AppDelegate.swift */,
+				EBD0FC5A2668DB93001001E6 /* SceneDelegate.swift */,
+				EBD0FC5C2668DB93001001E6 /* ViewController.swift */,
+				EBD0FC5E2668DB93001001E6 /* Main.storyboard */,
+				EBD0FC612668DB95001001E6 /* Assets.xcassets */,
+				EBD0FC632668DB95001001E6 /* LaunchScreen.storyboard */,
+				EBD0FC662668DB95001001E6 /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		EBD0FC6C2668DBA1001001E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,15 +158,37 @@
 			productReference = EBD0FC462668DB75001001E6 /* XHPageView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EBD0FC552668DB93001001E6 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD0FC672668DB95001001E6 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				EBD0FC522668DB93001001E6 /* Sources */,
+				EBD0FC532668DB93001001E6 /* Frameworks */,
+				EBD0FC542668DB93001001E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = EBD0FC562668DB93001001E6 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EBD0FC3D2668DB74001001E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					EBD0FC452668DB75001001E6 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					EBD0FC552668DB93001001E6 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -111,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				EBD0FC452668DB75001001E6 /* XHPageView */,
+				EBD0FC552668DB93001001E6 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +220,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBD0FC542668DB93001001E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD0FC652668DB95001001E6 /* LaunchScreen.storyboard in Resources */,
+				EBD0FC622668DB95001001E6 /* Assets.xcassets in Resources */,
+				EBD0FC602668DB93001001E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +237,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD0FC732668DC01001001E6 /* XHPageTitleView.swift in Sources */,
+				EBD0FC742668DC01001001E6 /* XHPageContentView.swift in Sources */,
+				EBD0FC752668DC01001001E6 /* XHPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD0FC522668DB93001001E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD0FC822668DD05001001E6 /* ZHHomeRecommendVC.swift in Sources */,
+				EBD0FC812668DD05001001E6 /* ZHHomeShowViewController.swift in Sources */,
+				EBD0FC5D2668DB93001001E6 /* ViewController.swift in Sources */,
+				EBD0FC7E2668DD05001001E6 /* ZHHomeBroadcastVC.swift in Sources */,
+				EBD0FC802668DD05001001E6 /* ZHCommon.swift in Sources */,
+				EBD0FC592668DB93001001E6 /* AppDelegate.swift in Sources */,
+				EBD0FC832668DD05001001E6 /* ZHHomeClassifyVC.swift in Sources */,
+				EBD0FC7F2668DD05001001E6 /* ZHHomeVIPViewController.swift in Sources */,
+				EBD0FC5B2668DB93001001E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD0FC5E2668DB93001001E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD0FC5F2668DB93001001E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD0FC632668DB95001001E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD0FC642668DB95001001E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBD0FC4C2668DB75001001E6 /* Debug */ = {
@@ -188,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +406,7 @@
 		EBD0FC4F2668DB75001001E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EWU92RE2A6;
@@ -269,6 +415,34 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XHPageView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zuhua.XHPageView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD0FC502668DB75001001E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EWU92RE2A6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XHPageView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,27 +454,43 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EBD0FC502668DB75001001E6 /* Release */ = {
+		EBD0FC682668DB95001001E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EWU92RE2A6;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XHPageView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zuhua.XHPageView;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = zuhua.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD0FC692668DB95001001E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWU92RE2A6;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zuhua.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +513,15 @@
 			buildConfigurations = (
 				EBD0FC4F2668DB75001001E6 /* Debug */,
 				EBD0FC502668DB75001001E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD0FC672668DB95001001E6 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD0FC682668DB95001001E6 /* Debug */,
+				EBD0FC692668DB95001001E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
