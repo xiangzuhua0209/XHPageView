@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
-        title = "demo"
+        title = "XHPageViewd"
         setupPageStyle()
         // Do any additional setup after loading the view.
     }
